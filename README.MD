@@ -38,3 +38,5 @@ docker compose up
 ```shell
 docker compose up -d
 ```
+
+После этого можно открыть в бразуере http://localhost:19900/
