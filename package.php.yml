@@ -1,0 +1,19 @@
+name: jphp-docker-example
+version: 1.0.0
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+  jphp-httpserver-ext: '*'
+  jphp-pgsql-ext: '*'
+  twig: '*'
+plugins:
+- App
+sources:
+- src
+includes:
+- index.php
+app:
+  build:
+    file-name: App
+    bytecode: jvm
+    type: one-jar

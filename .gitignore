@@ -1,0 +1,4 @@
+vendor/**
+.idea/**
+.initdb
+package-lock.php.yml
