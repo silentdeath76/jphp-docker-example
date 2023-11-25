@@ -22,7 +22,7 @@ try {
 
     $url = 'postgresql://' . trim($_ENV["POSTGRES_HOST"]) . ':5432/' . trim($_ENV["POSTGRES_DB"]);
 
-    echo sprintf("Try connect to: %s\n\r\n", $url);
+    echo sprintf("Connect to: %s\n\r\n", $url);
 
     $connection = SqlDriverManager::getConnection($url, [
         'user' => trim($_ENV["POSTGRES_USER"]),
